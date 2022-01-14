@@ -1,0 +1,103 @@
+{
+  "keyboard.dispatch": "keyCode",
+  "terminal.integrated.rendererType": "canvas",
+  "editor.formatOnSave": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.editor.enablePreview": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.allowChords": false,
+  "editor.suggestSelection": "first",
+  "editor.maxTokenizationLineLength": 200000,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [
+      120
+    ]
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "python.languageServer": "Pylance",
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "pylint",
+  "python.analysis.extraPaths": [
+    "./apps",
+    "./libs"
+  ],
+  "python.autoComplete.extraPaths": [
+    "./apps",
+    "./libs"
+  ],
+  "[python]": {
+    "editor.rulers": [
+      80
+    ]
+  },
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "s"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.showAllSymbols",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": [
+        "<C-l>",
+      ],
+      "after": [
+        "<C-[>",
+        "l",
+        "a"
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-r>": true,
+    "<C-w>": false,
+    "<C-k><C-w>": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "todo-tree.tree.showScanModeButton": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "autoDocstring.docstringFormat": "sphinx",
+  "window.customMenuBarAltFocus": false,
+  "window.enableMenuBarMnemonics": false,
+  "vscode-neovim.neovimExecutablePaths.linux": "/snap/bin/nvim",
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.lineNumbers": "relative",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "redhat.telemetry.enabled": false,
+  "editor.formatOnSaveMode": "modifications",
+  "workbench.iconTheme": "vscode-icons",
+}
