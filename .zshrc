@@ -102,24 +102,13 @@ source $ZSH/oh-my-zsh.sh
 bindkey '^r' history-incremental-search-backward
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export PATH=$PATH:./node_modules/.bin/:/usr/local/go/bin
-alias avb="cd $HOME/projects/avoma-backend && workon avoma"
-alias avi="cd $HOME/projects/avoma-infra && workon avoma-infra"
-alias avf="cd $HOME/projects/avoma-frontend"
-alias avn="cd $HOME/projects/avoma-notes-backend"
-alias avt="cd $HOME/projects/avoma-test"
-alias avs="cd $HOME/projects/avoma-streaming"
 alias cfnvim="nvim ~/.config/nvim/init.vim"
 alias ssp="systemctl suspend"
 alias gps="git push"
 alias gpl="git pull"
 alias emnw="emacs -nw"
-export WORKON_HOME=~/.virtualenvs
-source $HOME/.local/bin/virtualenvwrapper.sh
-export AVOMA_BACKEND_DIR=/home/omkar/projects/avoma-backend
-export AVOMA_FRONTEND_DIR=/home/omkar/projects/avoma-frontend
-export AVOMA_NODE_BACKEND_DIR=$HOME/projects/avoma-notes-backend
-export AVOMA_STREAMING_CODE_DIR=$HOME/projects/avoma-streaming
-export TEST_DATE_FOLDER=~/projects/avoma-test
+# export WORKON_HOME=~/.virtualenvs
+# source $HOME/.local/bin/virtualenvwrapper.sh
 export GIT_EDITOR="vim"
 ssh-add ~/.ssh/int.pem
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
